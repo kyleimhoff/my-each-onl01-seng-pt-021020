@@ -4,6 +4,10 @@ def my_each (array)
     while i < array.length
     yield array[i]
     i = i + 1 
+    end
+  else
+    puts "No block given!"
+  
 end
 
 my_each(collection){|i| i + 2}
