@@ -8,7 +8,7 @@ def my_each (array)
   else
     print "No block given!"
   end
-  
+  array
 end
 
 my_each(caller_locations){|i| print i}
