@@ -6,9 +6,9 @@ def my_each (array)
     i = i + 1 
     end
   else
-    puts "No block given!"
+    print "No block given!"
   end
   
 end
 
-my_each(caller_locations){|i| puts i}
+my_each(caller_locations){|i| print i}
