@@ -11,4 +11,4 @@ def my_each (array)
   
 end
 
-my_each(collection){|i| i + 2}
+my_each(caller_locations){|i| puts i}
