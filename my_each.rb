@@ -7,5 +7,3 @@ def my_each (collection)
   i = i + 1 
 end
 end
-
-my_each(i) {|i| puts i}
